@@ -19,8 +19,7 @@ Desenvolvimento de uma calculadora que converte bases numéricas e realiza opera
 3. Selecione a operação (soma ou subtração).
 4. Clique em "Calcular" para ver o resultado.
 
-## Demonstração
-![Demonstração da Calculadora](file:///C:/Users/vit_o/OneDrive/Imagens/Screenshot_2.png)
+![Demonstração da Calculadora](https://i.pinimg.com/736x/e2/e4/98/e2e49820b25e1f8a40de6a1234e1c7c1.jpg)
 
 ## Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou um pull request.
