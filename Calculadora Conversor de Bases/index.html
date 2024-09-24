@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Conversão e Soma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Conversor de Bases Numéricas 1.0</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="mostrarSecao('conversao')">Converter</a></li>
+                <li><a href="#" onclick="mostrarSecao('soma')">Somar</a></li>
+                <li><a href="#" onclick="mostrarSecao('subtracao')">Subtrair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="conversao" class="secao">
+            <h2>Conversão de Números</h2>
+            <label for="numeroDecimal">Digite um número decimal:</label>
+            <input type="number" id="numeroDecimal"><br>
+            <button onclick="converter()">Converter</button>
+
+            <div id="resultadoConversao">
+                <p>Binário: <span id="binario"></span></p>
+                <p>Octal: <span id="octal"></span></p>
+                <p>Hexadecimal: <span id="hexadecimal"></span></p>
+            </div>
+        </section>
+
+        <section id="soma" class="secao" style="display: none;">
+            <h2>Soma de Números Convertidos</h2>
+            <label for="primeiroNumeroSoma">Digite o primeiro número decimal:</label>
+            <input type="number" id="primeiroNumeroSoma"><br>
+            
+            <label for="segundoNumeroSoma">Digite o segundo número decimal:</label>
+            <input type="number" id="segundoNumeroSoma"><br>
+            
+            <button onclick="somar()">Somar</button>
+            <br><br>
+            <div id="resultadoSoma">
+                <p>Soma Binário: <span id="somaBinario"></span></p>
+                <p>Soma Octal: <span id="somaOctal"></span></p>
+                <p>Soma Hexadecimal: <span id="somaHexadecimal"></span></p>
+            </div>
+        </section>
+
+        <section id="subtracao" class="secao" style="display: none;">
+            <h2>Subtração de Números Convertidos</h2>
+            <label for="primeiroNumeroSub">Digite o primeiro número decimal:</label>
+            <input type="number" id="primeiroNumeroSub"><br>
+
+            <label for="segundoNumeroSub">Digite o segundo número decimal:</label>
+            <input type="number" id="segundoNumeroSub"><br>
+
+            <button onclick="subtrair()">Subtrair</button>
+            <br><br>
+            <div id="resultadoSubtracao">
+                <p>Subtração Binário: <span id="subtracaoBinario"></span></p>
+                <p>Subtração Octal: <span id="subtracaoOctal"></span></p>
+                <p>Subtração Hexadecimal: <span id="subtracaoHexadecimal"></span></p>
+            </div>
+        </section>    
+    </main>
+
+    <footer>
+        <p>2024 Vitor Suave & Vinicius Alves. Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

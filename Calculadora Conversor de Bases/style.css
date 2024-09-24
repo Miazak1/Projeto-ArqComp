@@ -1,0 +1,120 @@
+/* Estilos globais */
+body {
+    font-family: 'arial', sans-serif;
+    background-image: url('file:///C:/Users/vit_o/Downloads/totoro-on-top-of-a-tree_800.gif');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 50vh;
+    color: #1f192f;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #00000094;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 10;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #1b4063;
+    border-radius: 10px;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin-top: 30px;
+}
+
+.secao {
+    background-color: #1f2a44c7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(31, 48, 95, 0.726);
+}
+
+h2 {
+    color: #ffffff;
+}
+
+label {
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1b4063;
+}
+
+footer {
+    background-color: #2d607394;
+    color: #ffffff; 
+    text-align: center; 
+    padding: 30px; 
+    position: relative; 
+    bottom: -250px; 
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+
+#resultadoConversao, #resultadoSoma, #resultadoSubtracao {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
