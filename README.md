@@ -1,2 +1,2 @@
 # Projeto-ArqComp
-desenvolvimento do projeto de arq comp
+Desenvolvimento de uma calculadora que converte bases numericas e faz operações de soma e subtração.
